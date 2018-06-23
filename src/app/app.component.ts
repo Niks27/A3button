@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  val=""
+  public fun()
+  {
+    this.val="Button Clicked"
+  }
 }
